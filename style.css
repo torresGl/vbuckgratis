@@ -1,0 +1,142 @@
+.cartao{
+    background-color: rgb(51, 88, 189);
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    box-shadow: 0px 7px 20px rgb(0, 0, 0);
+   transition-duration: 1s;
+   
+}
+.cartao:hover{
+  transform: scale(1.05);
+}
+  
+   
+
+
+body{
+    display: flex;
+    align-items:center;
+   justify-content: center;
+   background-image: url(fundo-azul-do-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner_1258-54053.avif);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   position: relative;
+   
+}
+
+.hum{
+    border-bottom: 7px white solid;
+    padding: 10px;
+    background-color: rgba(43, 41, 41, 0.733);
+    border-radius: 5px; 
+    color: white;
+    
+
+}  
+
+.numero-do-cartao{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.validade{
+    padding-top: 30px;
+}
+
+.date{
+    margin: 10px;
+    border-radius: 6px;
+    border-color: transparent;
+    padding: 10px;
+}
+ 
+.text{
+    margin: 10px;
+    border-radius: 6px;
+    border-color: transparent;
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: white;
+    padding: 15px;
+    
+    border-radius: 10px;
+    border-bottom: 5px white solid;
+}
+
+.imagem{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  
+    margin-left: 10px; 
+    position: absolute;
+    left: 10px;
+    margin: 10px;
+    top: 200px;
+   
+  }
+
+  .direita{
+    position: absolute;
+    right: 0;
+    margin: 0;
+    padding: 0;
+   
+  }
+  .deretas{
+    right: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .bau{
+    width: 600px;
+    height: 700px;
+  }
+
+  .cvv{
+    padding-top: 30px;
+  }
+
+  .cvvdois{
+    margin: 10px;
+    border-radius: 6px;
+    border-color: transparent;
+    padding: 10px;
+    width: 50px;
+  }
+
+  .submit{
+    margin-top: 40px;
+    background-color: transparent;
+    padding: 15px;
+    font-size: 15px;
+    width: 100px;
+    background-color: rgba(128, 128, 128, 0.678);
+    cursor: pointer;
+    transition-duration: .2s;
+    color: black;
+  }
+  .submit:hover{
+    color: white;
+    border-color: white;
+  }
+
+  
+
+ 
